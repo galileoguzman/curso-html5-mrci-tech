@@ -27,7 +27,8 @@
 
 		#article, #aside{
 			display: inline-block;
-			vertical-align: top;
+			vertical-align: bottom;
+			height: 250px;
 		}
 
 		#aside{
@@ -42,6 +43,11 @@
 			padding: 1em;
 			width: 960px;
 		}
+
+		header{
+			height: 100px;
+		}
+
 		#section{
 			background-color: rgba(250,250,250,0.6);
 		}
@@ -60,28 +66,28 @@
 <body>
 	<div id="contenedor-general">
 		<!-- Este es un comentario -->
-		<div id="header" class="verde"><!-- aqui comienza el encabezado -->
+		<header id="header" class="verde"><!-- aqui comienza el encabezado -->
 			<p>header</p>
-		</div>
-		<div id="nav" class="verde">
+		</header>
+		<nav id="nav" class="verde">
 			<p>nav</p>
-		</div>
+		</nav>
 		<div id="cuerpo-pagina">
-			<div id="article" class="verde">
+			<article id="article" class="verde">
 				<p>article</p>
-				<div id="section">
+				<section id="section">
 					<p>section</p>
-				</div>
-			</div>
+				</section>
+			</article>
 
-			<div id="aside" class="verde">
+			<aside id="aside" class="verde">
 				<p>aside</p>
-			</div>
+			</aside>
 		</div>
 
-		<div id="footer" class="verde">
+		<footer id="footer" class="verde">
 			<p>footer</p>
-		</div>
+		</footer>
 	</div>
 
 </body>
