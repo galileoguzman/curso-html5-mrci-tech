@@ -11,10 +11,30 @@
 			margin: 0;
 			padding: 0;
 		}
+
+		body{
+			font-size: 16px;
+			text-align: center;
+		}
+		div{
+			border-radius: 7px;
+		}
+
 		#contenedor-general{
 			background-color: #d8d8d8;
 			margin: 0 auto;
+			padding: 1em;
 			width: 960px;
+		}
+		#section{
+			background-color: rgba(250,250,250,0.6);
+		}
+
+		.verde{
+			background-color: green;
+			color: #eee;
+			margin: 5px 0;
+			padding: 10px;
 		}
 
 
@@ -24,26 +44,26 @@
 <body>
 	<div id="contenedor-general">
 		<!-- Este es un comentario -->
-		<div id="header"><!-- aqui comienza el encabezado -->
+		<div id="header" class="verde"><!-- aqui comienza el encabezado -->
 			<p>header</p>
 		</div>
-		<div id="nav">
+		<div id="nav" class="verde">
 			<p>nav</p>
 		</div>
 		<div id="cuerpo-pagina">
-			<div id="article">
+			<div id="article" class="verde">
 				<p>article</p>
 				<div id="section">
 					<p>section</p>
 				</div>
 			</div>
 
-			<div id="aside">
+			<div id="aside" class="verde">
 				<p>aside</p>
 			</div>
 		</div>
 
-		<div id="footer">
+		<div id="footer" class="verde">
 			<p>footer</p>
 		</div>
 	</div>
