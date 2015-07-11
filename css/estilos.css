@@ -10,6 +10,19 @@ body{
 	text-align: center;
 }
 
+nav{
+	width: 70%;
+}
+
+nav, .logo{
+	display: inline-block;
+	vertical-align: middle;
+}
+
 #encabezado{
-	background-color: #16210B;
+	background-color: #b667f2;
+}
+
+.logo{
+	width: 25%;
 }
