@@ -11,12 +11,26 @@ body{
 }
 
 nav{
+	padding-right: 3em;
+	text-align: right;
 	width: 70%;
 }
+
 
 nav, .logo{
 	display: inline-block;
 	vertical-align: middle;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display: inline-block;
+	margin-left: 3.5em;
+	vertical-align: middle;
+
 }
 
 #encabezado{
@@ -25,4 +39,10 @@ nav, .logo{
 
 .logo{
 	width: 25%;
+}
+
+.mi-logotipo{
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
 }
